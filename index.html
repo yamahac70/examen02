@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda </title>
+  </head>
+  <body>
+<header>
+  <nav class="nav">
+      
+  </nav>
+</header>
+<main>
+  <div class="main-header">
+    <h1>Nombre de tienda</h1>
+  </div>
+  <div class="main-contenido">
+    <div class="form-productos">
+      <form id="form-productos" >
+        <input type="text" name="producto_nombre" placeholder="Nombre de la prenda">
+        <input type="number" name="producto_precio" placeholder="Precio ">
+        <select name="producto_categoria" id="producto-categoria">
+          <option value="1">Invierno</option>
+          <option value="2">Verano</option>
+          <option value="3">Otoño</option>
+          <option value="4">Primavera</option>
+        </select>
+        <label for="producto_estado">Promoción</label>
+        <input type="radio" name="producto_estado" id="producto-estado" value="1">
+        <label for="producto_estado2">Norma</label>
+        <input type="radio" name="producto_estado" id="producto-estado2" value="2">
+        <input type="color" name="producto_color" >
+        <input type="text" name="producto_talle" placeholder="Talle">
+        <input type="number" name="producto_stock" placeholder="Stock">
+        <input type="submit" value="Agregar" class="sub">
+      </form>
+    </div>
+    <div class="lista-productos" id="lista-productos">
+      <table>
+          <thead>
+            <tr>
+              <th width="12.5%">Nombre</th>
+              <th width="12.5%">Precio</th>
+              <th width="12.5%">Categoria</th>
+              <th width="12.5%">Promoción</th>
+              <th width="12.5%">Color</th>
+              <th width="12.5%">Talle</th>
+              <th width="12.5%">Stock</th>
+              <th width="12.5%">Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+           
+          </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+<footer>
+
+</footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

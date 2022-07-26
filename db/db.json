@@ -1,0 +1,14 @@
+{
+  "productos": [
+    {
+      "producto_nombre": "dfsdf",
+      "producto_precio": "3434",
+      "producto_categoria": "3",
+      "producto_estado": "1",
+      "producto_color": "#6f1f1f",
+      "producto_talle": "434",
+      "producto_stock": "34344",
+      "id": 1
+    }
+  ]
+}
